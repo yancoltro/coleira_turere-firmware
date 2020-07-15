@@ -1,0 +1,8 @@
+menu "HTTPS Configuration"
+    config ESP_HTTP_CLIENT_ENABLE_BASIC_AUTH
+        bool "Basic Auth"
+        default y
+        help
+            Enable requests using basic auth
+            
+endmenu

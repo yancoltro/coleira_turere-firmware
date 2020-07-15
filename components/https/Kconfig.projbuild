@@ -1,0 +1,19 @@
+menu "HTTPS Configuration"
+    config WEB_SERVER
+        string "Web Server Address"
+        default "127.0.0.1"
+        help
+            Main address of the data sending server.
+
+    config WEB_PORT
+        string "Web Port"
+        default "5000"
+        help
+            Port used for communication with server
+
+    config WEB_URL
+        string "Web URL Resource"
+        default "127.0.0.1:5000/resource"
+        help
+            
+endmenu
